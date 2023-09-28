@@ -18,7 +18,7 @@
   <body class="d-flex justify-content-center" >
     <div class="container py-4 text-center">
       <div class="grid text-center row row-cols-2">
-        <div class="col card" style="background-color: rgb(128, 0, 0); ">
+        <div class="col card align-items-center h-50 d-inline-block" style="background-color: rgb(128, 0, 0);">
           <img
             src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
             class="rounded-circle  m-3"
@@ -28,16 +28,16 @@
           <h5 class=" m-3"><strong>John Doe</strong></h5>
           <button type="button" class="btn btn-success  m-3">Contact</button>
         </div>
-        <div class="col card " style="background-color: rgb(105, 87, 194); ">
+        <div class="col card text-start " style="background-color: rgb(105, 87, 194); ">
           <strong>My Progress</strong>
           <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              <div class="">
+              <div class="d-flex flex-row mb-0">
                 <img
                   src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
                   alt=""
                   style="width: 45px; height: 45px"
-                  class=""
+                  class="m-2 rounded float-start"
                 />
                 <div class="" >
                   <p class="">Django</p>
@@ -58,12 +58,12 @@
           </ul>
           <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              <div class="">
+              <div class="d-flex flex-row mb-0">
                 <img
                   src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
                   alt=""
                   style="width: 45px; height: 45px"
-                  class=""
+                  class="m-2 rounded float-start"
                 />
                 <div class="">
                   <p class="">Flutter</p>
@@ -84,12 +84,12 @@
           </ul>
           <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              <div class="">
+              <div class="d-flex flex-row mb-0">
                 <img
                   src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
                   alt=""
                   style="width: 45px; height: 45px"
-                  class=""
+                  class="m-2 rounded float-start"
                 />
                 <div class="">
                   <p class="">Html</p>
@@ -110,12 +110,12 @@
           </ul>
           <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              <div class="">
+              <div class="d-flex flex-row mb-0">
                 <img
                   src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
                   alt=""
                   style="width: 45px; height: 45px"
-                  class=""
+                  class="m-2 rounded float-start"
                 />
                 <div class="">
                   <p class="">CSS</p>
@@ -135,85 +135,85 @@
             </li>
           </ul>
         </div>
-        <div class="col card" style="background-color: rgb(124, 128, 0); ">
+        <div class="col card  d-flex  align-items-start text-start" style="background-color: rgb(124, 128, 0); ">
           <strong>Reach me</strong>
           <form>
-            <div class="">
-              <label for="exampleInputEmail1" class="">Email address</label>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
               <input
                 type="email"
-                class=""
+                class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               />
-              <div id="emailHelp" class="">
+              <div id="emailHelp" class="form-text">
                 We'll never share your email with anyone else.
               </div>
             </div>
-            <div class="">
-              <label for="Subject" class="">Subject</label>
-              <textarea class="" id="Subject" rows="3"></textarea>
+            <div class="mb-3">
+              <label for="Subject" class="form-label">Subject</label>
+              <textarea class="form-control" id="Subject" rows="3"></textarea>
             </div>
             <div class="">
-              <label for="Country" class="">Country</label>
-              <select class="">
+              <label for="Country" class="form-label">Country</label>
+              <select class="form-select">
                 <option selected>Open this select menu</option>
                 <option value="1">Kuwait</option>
                 <option value="2">Other</option>
               </select>
             </div>
-            <div class="">
-              <input type="checkbox" class="" id="exampleCheck1" />
-              <label class="" for="exampleCheck1"
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+              <label class="form-check-label" for="exampleCheck1"
                 >This is a business email</label
               >
             </div>
-            <button type="submit" class="">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
-        <div class="col card"  style="background-color: rgb(87, 194, 87); ">
+        <div class="col card   d-flex  align-items-start text-start"  style="background-color: rgb(87, 194, 87); ">
           <strong>My Blog</strong>
-          <div class="" style="height: auto; min-height: 450px">
-            <ol class="">
-              <li class="">
-                <div class="">
-                  <div class="">Article 1</div>
+          <div class="d-flex align-content-between flex-wrap  justify-content-center" style="height: auto; min-height: 450px">
+            <ol class="list-group list-group-numbered ">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div class="ms-2 me-4">
+                  <div class="fw-bold">Article 1</div>
                   Lorem
                 </div>
-                <span class="">10 mins read</span>
+                <span class="badge bg-success rounded-pill">10 mins read</span>
               </li>
-              <li class="">
-                <div class="">
-                  <div class="">Article 2</div>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div class="ms-2 me-4">
+                  <div class="fw-bold">Article 2</div>
                   Lorem
                 </div>
-                <span class="">15 mins read</span>
+                <span class="badge bg-success rounded-pill">15 mins read</span>
               </li>
-              <li class="">
-                <div class="">
-                  <div class="">Article 3</div>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div class="ms-2 me-4">
+                  <div class="fw-bold">Article 3</div>
                   Lorem
                 </div>
-                <span class="">7 mins read</span>
+                <span class="badge bg-success rounded-pill">7 mins read</span>
               </li>
             </ol>
-            <ul class="">
-              <li class="">
-                <a class="" href="#" tabindex="-1" aria-disabled="true"
+            <ul class="pagination justify-content-center">
+              <li class="page-item">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true"
                   >Previous</a
                 >
               </li>
-              <li class="">
-                <a class="" href="#">1</a>
+              <li class="page-item">
+                <a class="page-link" href="#">1</a>
               </li>
-              <li class="">
-                <a class="" href="#">2</a>
+              <li class="page-item">
+                <a class="page-link" href="#">2</a>
               </li>
-              <li class="">
-                <a class="" href="#">3</a>
+              <li class="page-item">
+                <a class="page-link" href="#">3</a>
               </li>
-              <li class="">
-                <a class="" href="#">Next</a>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
               </li>
             </ul>
           </div>
